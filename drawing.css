@@ -2,9 +2,12 @@ body {
     background-color: lightsteelblue;
 }
 
+button {
+    width: 100px;
+    font-size: 18px;
+}
+
 #slate {
-    width: 1000px;
-    height: 750px;
     border: solid black 3px;
     background-color: white;
 }
