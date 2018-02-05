@@ -1,7 +1,7 @@
 //hi c:
 
 var clear_board = function() {
-  ctx.clearRect(0, 0, ctx.width, ctx.height);
+  ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
   ctx.beginPath();
   console.log("Cleared board.");
 };
